@@ -128,7 +128,9 @@ package org.bigbluebutton.main.model.users
 				_conferenceParameters.lockSettings = UserManager.getInstance().getConference().getLockSettings().toMap();
 				
 				// assign the meeting name to the document title
+				//修改
 				ExternalInterface.call("setTitle", _conferenceParameters.meetingName);
+				//ExternalInterface.call("setTitle", "电子白板");
 				
 				/**
 				 * Temporarily store the parameters in global BBB so we get easy access to it.

@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<actionScriptProperties analytics="false" mainApplicationPath="BigBlueButton.mxml" projectUUID="f330b47a-ef44-431d-8c83-1768892be326" version="11">
-  <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" useFlashSDK="false" verifyDigests="true" warn="true">
+<actionScriptProperties analytics="false" mainApplicationPath="WebcamViewStandalone.mxml" projectUUID="f330b47a-ef44-431d-8c83-1768892be326" version="11">
+  <compiler additionalCompilerArguments="-locale en_US -source-path=../locale/{locale} -debug=true" autoRSLOrdering="true" copyDependentFiles="true" flex3CompatMode="true" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderLocation="/Users/ksj/Desktop/software/red5-1.0/webapps/root/client" outputFolderPath="bin-debug" removeUnusedRSL="true" rootURL="http://localhost:6080/client" sourceFolderPath="src" strict="false" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" useFlashSDK="false" verifyDigests="true" warn="true">
     <compilerSourcePath/>
-    <libraryPath defaultLinkType="0">
+    <libraryPath defaultLinkType="1">
       <libraryPathEntry kind="4" path="">
+        <modifiedEntries>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="10" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/advancedgrids.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/advancedgrids_4.6.0.23201.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="advancedgrids_4.6.0.23201.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="6" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/charts.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/charts_4.6.0.23201.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="charts_4.6.0.23201.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="8" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/osmf.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/osmf_1.0.0.16316.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="osmf_1.0.0.16316.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="5" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/rpc.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/rpc_4.6.0.23201.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="rpc_4.6.0.23201.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="9" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/mx/mx.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/mx_4.6.0.23201.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="mx_4.6.0.23201.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
+        </modifiedEntries>
         <excludedEntries>
           <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/flex.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="4" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/sparkskins.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/sparkskins_4.6.0.23201.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="sparkskins_4.6.0.23201.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
           <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/core.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="7" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/spark_dmv.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/spark_dmv_4.6.0.23201.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="spark_dmv_4.6.0.23201.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
+          <libraryPathEntry applicationDomain="default" forceLoad="false" index="3" kind="3" linkType="4" path="${PROJECT_FRAMEWORKS}/libs/spark.swc" useDefaultLinkType="true">
+            <crossDomainRsls>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="http://fpdownload.adobe.com/pub/swz/crossdomain.xml" rslUrl="http://fpdownload.adobe.com/pub/swz/flex/4.6.0.23201/spark_4.6.0.23201.swz"/>
+              <crossDomainRslEntry autoExtract="true" policyFileUrl="" rslUrl="spark_4.6.0.23201.swz"/>
+            </crossDomainRsls>
+          </libraryPathEntry>
         </excludedEntries>
       </libraryPathEntry>
       <libraryPathEntry kind="1" linkType="1" path="libs"/>
@@ -14,10 +64,35 @@
     <sourceAttachmentPath/>
   </compiler>
   <applications>
+    <application path="WebcamViewStandalone.mxml"/>
+    <application path="WebcamPreviewStandalone.mxml"/>
+    <application path="RTMPConnCheck.mxml"/>
+    <application path="CameraCheck.mxml"/>
+    <application path="BigBlueButtonUnitTests.mxml"/>
+    <application path="BigBlueButtonTest.mxml"/>
     <application path="BigBlueButton.mxml"/>
   </applications>
-  <modules/>
+  <modules>
+    <module application="src/BigBlueButton.mxml" destPath="BreakoutModule.swf" optimize="false" sourcePath="src/BreakoutModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="DeskShareModule.swf" optimize="false" sourcePath="src/DeskShareModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="ChatModule.swf" optimize="false" sourcePath="src/ChatModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="LayoutModule.swf" optimize="false" sourcePath="src/LayoutModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="ExampleChatModule.swf" optimize="false" sourcePath="src/ExampleChatModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="NotesModule.swf" optimize="false" sourcePath="src/NotesModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="ClassroomAudioModule.swf" optimize="false" sourcePath="src/ClassroomAudioModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="DynamicInfoModule.swf" optimize="false" sourcePath="src/DynamicInfoModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="BroadcastModule.swf" optimize="false" sourcePath="src/BroadcastModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="PresentModule.swf" optimize="false" sourcePath="src/PresentModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="PhoneModule.swf" optimize="false" sourcePath="src/PhoneModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="UsersModule.swf" optimize="false" sourcePath="src/UsersModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="PollingModule.swf" optimize="false" sourcePath="src/PollingModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="MonitoringModule.swf" optimize="false" sourcePath="src/MonitoringModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="SharedNotesModule.swf" optimize="false" sourcePath="src/SharedNotesModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="VideoconfModule.swf" optimize="false" sourcePath="src/VideoconfModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="WhiteboardModule.swf" optimize="false" sourcePath="src/WhiteboardModule.mxml"/>
+  </modules>
   <workers/>
   <buildCSSFiles/>
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
 </actionScriptProperties>
+

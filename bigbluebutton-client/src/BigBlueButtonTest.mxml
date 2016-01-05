@@ -36,6 +36,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 			import mx.managers.HistoryManager;
 			import mx.managers.IDragManager;
 			
+			import org.bigbluebutton.common.LogUtil;
 			import org.bigbluebutton.main.events.BBBEvent;
 			import org.bigbluebutton.util.i18n.ResourceUtil;
 			

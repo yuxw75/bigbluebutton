@@ -77,6 +77,7 @@ package org.bigbluebutton.main.model
       var protocol:String = URLUtil.getProtocol(swfURL);
       var serverName:String = URLUtil.getServerNameWithPort(swfURL);        
       return protocol + "://" + serverName + "/" + CONFIG_XML;
+	  //return "http://bbb156/" + CONFIG_XML;
     }
     
 		private function handleComplete(e:Event):void{

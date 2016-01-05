@@ -129,5 +129,10 @@ package org.bigbluebutton.common {
 		public static function disableLogging():void {
 			LOGGER_FACTORY.setup = null;
 		}
+		
+		public static function debug(info:String):void
+		{
+			trace(info);
+		}
 	}
 }

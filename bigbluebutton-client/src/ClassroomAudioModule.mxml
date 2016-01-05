@@ -42,6 +42,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 			import com.asfusion.mate.events.Dispatcher;
 			
 			import org.bigbluebutton.common.IBigBlueButtonModule;
+			import org.bigbluebutton.common.LogUtil;
 			import org.bigbluebutton.modules.classyaudio.events.StartClassAudioEvent;
 			import org.bigbluebutton.modules.classyaudio.events.StopClassAudioEvent;
 			

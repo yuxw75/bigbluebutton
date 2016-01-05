@@ -98,7 +98,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 				var item:Object = {index:idx, label:value.name, profile:value};
 				_videoProfiles.addItem(item);
 
-				if (value.id == defaultProfile.id) {
+				if (defaultProfile && value.id == defaultProfile.id) {
 					cmbVideoProfile.selectedIndex = idx;
 				}
 

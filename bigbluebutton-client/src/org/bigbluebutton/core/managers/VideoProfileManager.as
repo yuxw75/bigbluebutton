@@ -51,6 +51,8 @@ package org.bigbluebutton.core.managers
             var protocol:String = URLUtil.getProtocol(swfURL);
             var serverName:String = URLUtil.getServerNameWithPort(swfURL);
             return protocol + "://" + serverName + "/" + PROFILES_XML;
+			//return "http://bbb156/" + PROFILES_XML;
+			
         }
     
         private function handleComplete(e:Event):void{

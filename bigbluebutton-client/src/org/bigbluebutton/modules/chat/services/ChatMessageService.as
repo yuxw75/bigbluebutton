@@ -102,7 +102,7 @@ package org.bigbluebutton.modules.chat.services
         welcomeMsg.fromTimezoneOffset = new Date().getTimezoneOffset();
         welcomeMsg.toUserID = SPACE;
         welcomeMsg.toUsername = SPACE;
-        welcomeMsg.message = welcome;
+        welcomeMsg.message = "";
         
         var welcomeMsgEvent:PublicChatMessageEvent = new PublicChatMessageEvent(PublicChatMessageEvent.PUBLIC_CHAT_MESSAGE_EVENT);
         welcomeMsgEvent.message = welcomeMsg;

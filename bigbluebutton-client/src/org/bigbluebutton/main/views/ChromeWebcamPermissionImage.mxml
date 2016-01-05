@@ -26,10 +26,6 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 				verticalScrollPolicy="off"
 				horizontalScrollPolicy="off"
 				horizontalAlign="center" 
-				borderAlpha="0.0"
-				borderThicknessLeft="0" 
-				borderThicknessRight="0"
-				borderThicknessTop="0"
 				x="20"
 				y="-20">
 	

@@ -22,6 +22,7 @@ package org.bigbluebutton.modules.whiteboard
   import flash.events.Event;
   import flash.events.FocusEvent;
   import flash.events.KeyboardEvent;
+  import flash.system.IME;
   import flash.ui.Keyboard;
   
   import org.as3commons.logging.api.ILogger;
@@ -469,9 +470,12 @@ package org.bigbluebutton.modules.whiteboard
         }
             
     public function textObjGainedFocusListener(event:FocusEvent):void {
+		//中文输入问题处理
+		IME.enabled = true;
 //      LogUtil.debug("### GAINED FOCUS ");
             // The presenter is ready to type in the text. Maintain focus to this textbox until the presenter hits the ENTER/RETURN key.
             maintainFocusToTextBox(event);
+			
     }
     
     public function textObjLostFocusListener(event:FocusEvent):void {

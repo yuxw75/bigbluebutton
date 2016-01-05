@@ -40,6 +40,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 			
 			import flash.ui.Keyboard;
 			
+			import mx.controls.Alert;
 			import mx.controls.sliderClasses.Slider;
 			import mx.events.CloseEvent;
 			import mx.events.SliderEvent;
@@ -166,7 +167,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 		
         var tempArr:Array = new Array();
         tempArr.push("0%", ResourceUtil.getInstance().getString('bbb.micSettings.micRecordVolume.label'),"100%");
-        micRecordVolume.labels = tempArr;		        
+        micRecordVolume.labels = tempArr;		
       }
       
       private function showEchoTestAudioPrompt():void {
@@ -366,7 +367,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
                           maximum="100" snapInterval="1"                       
                           labels="[0%,{ResourceUtil.getInstance().getString('bbb.micSettings.micRecordVolume.label')},100%]"
                           tickInterval="10" liveDragging="true" change="changeRecordVolume(event);"
-                          showTrackHighlight="true" trackColors="[ 0xEEEEEE, 0xFFFFFF ]"
+                          showTrackHighlight="true"
                           value="60"
                           toolTip="{ResourceUtil.getInstance().getString('bbb.micSettings.micRecordVolume.toolTip')}" />                           
             </mx:HBox>

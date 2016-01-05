@@ -44,6 +44,8 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 		<![CDATA[
 			import com.asfusion.mate.events.Dispatcher;
 			
+			import flash.net.navigateToURL;
+			
 			import mx.accessibility.AlertAccImpl;
 			import mx.controls.Alert;
 			import mx.core.UIComponent;
@@ -151,6 +153,8 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
               if (meetingTitle != null) {
                   meetingNameLbl.text = meetingTitle;
                   meetingNameLbl.toolTip = meetingTitle;
+//				  meetingNameLbl.text = "电子白板";
+//				  meetingNameLbl.toolTip = "电子白板";
                } 
           }
           logFlashPlayerCapabilities();
@@ -247,7 +251,13 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 				}
 			}
 			
-			private function doLogout():void {
+			private function doLogout():void 
+			{
+				if(ExternalInterface.available) 
+				{ 
+					ExternalInterface.call("jsclose"); 
+				} 
+				//navigateToURL(new URLRequest('javascript:window.opener=null;window.close()'),'_self');
 				dispatchEvent(new LogoutEvent(LogoutEvent.USER_LOGGED_OUT));
 			}
 			
@@ -358,15 +368,19 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
       
       private function onRecordingStatusChanged(event:BBBEvent):void {
         meetingNameLbl.text = "";
+		//meetingNameLbl.text = "电子白板";
         
         if (event.payload.recording) {
-          meetingNameLbl.text =  ResourceUtil.getInstance().getString('bbb.mainToolbar.recordingLabel.recording')
+          meetingNameLbl.text =  ResourceUtil.getInstance().getString('bbb.mainToolbar.recordingLabel.recording');
+		 // meetingNameLbl.text = "电子白板";
+			  
 		}
         
         if (toolbarOptions.showMeetingName) {
           var meetingTitle:String = BBB.initUserConfigManager().getMeetingTitle();                   
           if (meetingTitle != null) {
             meetingNameLbl.text += " " + meetingTitle;
+			//meetingNameLbl.text = "电子白板";
           } 
         }
       }

@@ -30,7 +30,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 			import org.bigbluebutton.common.LogUtil;
 		]]>
 	</mx:Script>
-   
+   <!--xxxxxxxxxxxxxxxx-->
   <views:BigBlueButtonMainContainer id="bbbShell"/>
  
 </mx:Application>

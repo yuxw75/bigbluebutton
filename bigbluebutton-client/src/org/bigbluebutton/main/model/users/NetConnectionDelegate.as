@@ -29,6 +29,8 @@ package org.bigbluebutton.main.model.users
 	import flash.net.Responder;
 	import flash.utils.Timer;
 	
+	import mx.controls.Alert;
+	
 	import org.as3commons.logging.api.ILogger;
 	import org.as3commons.logging.api.getClassLogger;
 	import org.bigbluebutton.core.UsersUtil;
@@ -377,8 +379,11 @@ package org.bigbluebutton.main.model.users
 					break;
 					
 				default :
+					
           LOGGER.debug(":Default status to the viewers application" );
-				   sendConnectionFailedEvent(ConnectionFailedEvent.UNKNOWN_REASON);
+		  		  Alert.show("default");
+				  sendConnectionFailedEvent(ConnectionFailedEvent.UNKNOWN_REASON);
+				 
 				   break;
 			}
 		}
@@ -390,19 +395,28 @@ package org.bigbluebutton.main.model.users
 			
 		protected function netSecurityError(event: SecurityErrorEvent):void {
       LOGGER.error("Security error - {0}", [event.text]);
+	 
+	  		Alert.show("netSecurityError");
 			sendConnectionFailedEvent(ConnectionFailedEvent.UNKNOWN_REASON);
+			
 		}
 		
 		protected function netIOError(event: IOErrorEvent):void {
       LOGGER.error("Input/output error - {0}", [event.text]);
+	  
+	 		Alert.show("netIOError");
 			sendConnectionFailedEvent(ConnectionFailedEvent.UNKNOWN_REASON);
+			
 		}
 			
 		protected function netASyncError(event: AsyncErrorEvent):void  {
       LOGGER.debug("Asynchronous code error - {0}", [event.toString()]);
       
 	  		LOGGER.debug("Asynchronous code error - {0}", [event.toString()]);
-			sendConnectionFailedEvent(ConnectionFailedEvent.UNKNOWN_REASON);
+			
+			//Alert.show("netASyncError");
+			//sendConnectionFailedEvent(ConnectionFailedEvent.UNKNOWN_REASON);
+			
 		}	
 			
 		private function sendConnectionFailedEvent(reason:String):void{
