@@ -30,6 +30,8 @@ package org.bigbluebutton.modules.classyaudio.managers
 	import flash.net.NetConnection;
 	import flash.net.NetStream;
 	
+	import mx.controls.Alert;
+	
 	import org.bigbluebutton.common.LogUtil;
 	import org.bigbluebutton.modules.classyaudio.events.MicMutedEvent;
 	import org.bigbluebutton.modules.classyaudio.events.PlayStreamStatusEvent;
@@ -168,7 +170,9 @@ package org.bigbluebutton.modules.classyaudio.managers
 		private function publish(publishStreamName:String):void {
 			LogUtil.debug("Publishing stream " + publishStreamName);
 			if (mic != null)
+			{
 				outgoingStream.publish(publishStreamName, "live");
+			}
 			else
 				LogUtil.debug("SM publish: No Microphone to publish");
 		}

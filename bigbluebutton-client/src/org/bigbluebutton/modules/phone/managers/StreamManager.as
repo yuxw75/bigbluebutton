@@ -29,6 +29,8 @@ package org.bigbluebutton.modules.phone.managers {
 	import flash.media.SoundCodec;
 	import flash.net.NetStream;
 	
+	import mx.controls.Alert;
+	
 	import org.as3commons.logging.api.ILogger;
 	import org.as3commons.logging.api.getClassLogger;
 	import org.bigbluebutton.core.BBB;
@@ -151,7 +153,7 @@ package org.bigbluebutton.modules.phone.managers {
 				publish(publishStreamName);
 			} else {
 				LOGGER.debug("not publishing any stream because I'm in listen only mode");
-			}
+			} 
 		}
 		
 		private function play(playStreamName:String):void {		

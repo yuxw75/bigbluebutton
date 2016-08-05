@@ -73,23 +73,23 @@
     <application path="BigBlueButton.mxml"/>
   </applications>
   <modules>
-    <module application="src/BigBlueButton.mxml" destPath="BreakoutModule.swf" optimize="false" sourcePath="src/BreakoutModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="DeskShareModule.swf" optimize="false" sourcePath="src/DeskShareModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="ChatModule.swf" optimize="false" sourcePath="src/ChatModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="LayoutModule.swf" optimize="false" sourcePath="src/LayoutModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="ExampleChatModule.swf" optimize="false" sourcePath="src/ExampleChatModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="NotesModule.swf" optimize="false" sourcePath="src/NotesModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="ClassroomAudioModule.swf" optimize="false" sourcePath="src/ClassroomAudioModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="DynamicInfoModule.swf" optimize="false" sourcePath="src/DynamicInfoModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="BroadcastModule.swf" optimize="false" sourcePath="src/BroadcastModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="PresentModule.swf" optimize="false" sourcePath="src/PresentModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="PhoneModule.swf" optimize="false" sourcePath="src/PhoneModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="UsersModule.swf" optimize="false" sourcePath="src/UsersModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="PollingModule.swf" optimize="false" sourcePath="src/PollingModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="MonitoringModule.swf" optimize="false" sourcePath="src/MonitoringModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="SharedNotesModule.swf" optimize="false" sourcePath="src/SharedNotesModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="VideoconfModule.swf" optimize="false" sourcePath="src/VideoconfModule.mxml"/>
-    <module application="src/BigBlueButton.mxml" destPath="WhiteboardModule.swf" optimize="false" sourcePath="src/WhiteboardModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="BreakoutModule.swf" optimize="true" sourcePath="src/BreakoutModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="DeskShareModule.swf" optimize="true" sourcePath="src/DeskShareModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="ChatModule.swf" optimize="true" sourcePath="src/ChatModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="LayoutModule.swf" optimize="true" sourcePath="src/LayoutModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="ExampleChatModule.swf" optimize="true" sourcePath="src/ExampleChatModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="NotesModule.swf" optimize="true" sourcePath="src/NotesModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="ClassroomAudioModule.swf" optimize="true" sourcePath="src/ClassroomAudioModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="DynamicInfoModule.swf" optimize="true" sourcePath="src/DynamicInfoModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="BroadcastModule.swf" optimize="true" sourcePath="src/BroadcastModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="PresentModule.swf" optimize="true" sourcePath="src/PresentModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="PhoneModule.swf" optimize="true" sourcePath="src/PhoneModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="UsersModule.swf" optimize="true" sourcePath="src/UsersModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="PollingModule.swf" optimize="true" sourcePath="src/PollingModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="MonitoringModule.swf" optimize="true" sourcePath="src/MonitoringModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="SharedNotesModule.swf" optimize="true" sourcePath="src/SharedNotesModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="VideoconfModule.swf" optimize="true" sourcePath="src/VideoconfModule.mxml"/>
+    <module application="src/BigBlueButton.mxml" destPath="WhiteboardModule.swf" optimize="true" sourcePath="src/WhiteboardModule.mxml"/>
   </modules>
   <workers/>
   <buildCSSFiles/>

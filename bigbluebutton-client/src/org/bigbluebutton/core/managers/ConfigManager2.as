@@ -54,8 +54,7 @@ package org.bigbluebutton.core.managers
       var swfURL:String = FlexGlobals.topLevelApplication.url;
       var protocol:String = URLUtil.getProtocol(swfURL);
       var serverName:String = URLUtil.getServerNameWithPort(swfURL);        
-     return protocol + "://" + serverName + "/" + CONFIG_XML;
-	 // return "http://120.25.106.47/" + CONFIG_XML;
+      return protocol + "://" + serverName + "/" + CONFIG_XML;
     }
     
 		private function handleComplete(e:Event):void{

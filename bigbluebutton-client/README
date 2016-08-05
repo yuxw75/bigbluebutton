@@ -37,3 +37,12 @@ Enable logging
 
     
     http://localhost:6080/client
+    
+    
+    
+  http://112.74.96.171/bigbluebutton/api/join?meetingID=1361468912533034&password=td&fullName=t1&logoutURL=http://lwork.hk&checksum=a94465b1e26562ec3b9e7b19bfa4320a5b876167
+ 
+ 
+ rtmp://112.74.96.171/video/603f5381433fe04df60cda75d95bf642898a0194-1469446417068/603f5381433fe04df60cda75d95bf642898a0194-1469446417068
+ medium-xkrgen3nyaso_2-1469446449265
+ 
