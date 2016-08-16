@@ -30,6 +30,8 @@ package org.bigbluebutton.modules.videoconf.business
 	import flash.net.NetConnection;
 	import flash.net.NetStream;
 	
+	import mx.controls.Alert;
+	
 	import org.as3commons.logging.api.ILogger;
 	import org.as3commons.logging.api.getClassLogger;
 	import org.bigbluebutton.core.BBB;
@@ -224,9 +226,9 @@ package org.bigbluebutton.modules.videoconf.business
 					case "5.1": h264Level = H264Level.LEVEL_5_1; break;
 				}
 				
-				
 				h264.setProfileLevel(h264profile, h264Level);
-				ns.videoStreamSettings = h264;
+				//修改:2016.8.5去掉H264 可以使得ios正常播放
+				//ns.videoStreamSettings = h264;
 			}
 			
 			ns.publish(e.stream, "live");
